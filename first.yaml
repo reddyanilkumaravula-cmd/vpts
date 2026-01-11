@@ -1,0 +1,8 @@
+---
+- mhost1
+  gather_facts: no
+  vars:
+
+  tasks:
+    - name: test file
+      debug:
